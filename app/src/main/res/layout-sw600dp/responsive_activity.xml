@@ -24,11 +24,12 @@
 
     <!-- The layout includes views for a placeholder image, article title, date, and body text -->
     <ImageView
-        android:layout_width="match_parent"
+        android:layout_width="0dp"
         android:layout_gravity="center_horizontal"
-        android:layout_height="0dp"
+        android:layout_height="200dp"
         android:layout_weight="1"
         android:paddingBottom="8dp"
+        android:paddingRight="8dp"
         android:src="@drawable/ic_insert_image"
         android:gravity="center"
         android:contentDescription="@string/image_placeholder" />
